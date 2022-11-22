@@ -1,4 +1,6 @@
-AOS.init();
+let mediaQueryForAOS = window.matchMedia('(max-width: 600px)');
+
+AOS.init(); 
 
 let firstVideo = document.getElementById('video1');
 let secondVideo = document.getElementById('video2');
